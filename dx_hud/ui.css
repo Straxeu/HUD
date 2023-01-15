@@ -1,0 +1,520 @@
+
+.clearfix{
+    display: block;
+    width: 100%;
+    clear: both;
+	font-family: 'Russo One', sans-serif;
+}
+.axonlogo{
+    float: right;
+	font-family: 'Russo One', sans-serif;
+}
+.personallogo{
+    float: right;
+	font-family: 'Russo One', sans-serif;
+}
+.datacam{
+    margin-right: 15px;
+    position: relative;
+    top: 5px;
+    float: right;
+	font-family: 'Russo One', sans-serif;
+}
+.dataop{
+    margin-right: 15px;
+    position: relative;
+    top: 5px;
+    float: right;
+	font-family: 'Russo One', sans-serif;
+}
+.dashcam{
+    padding: 15px;
+    border-radius: 5px;
+    background: rgb(0 0 0 / 40%);
+    position: absolute;
+    right: 100px;
+    top: 100px;
+	font-family: 'Russo One', sans-serif;
+}
+.op{
+    padding: 15px;
+    border-radius: 5px;
+    background: rgb(0 0 0 / 40%);
+    position: absolute;
+    right: 100px;
+    top: 222px;
+	font-family: 'Russo One', sans-serif;
+}
+.dash_title{
+    color: #d4d4d4;
+    font-size: 19px;
+    text-align: right;
+	font-family: 'Russo One', sans-serif;
+}
+.dashcam_name{
+    color: #d4d4d4;
+    text-align: right;
+    font-size: 19px;
+	font-family: 'Russo One', sans-serif;
+}
+.dash_time{
+    color: #d4d4d4;
+    font-size: 19px;
+	font-family: 'Russo One', sans-serif;
+    text-align: right;
+}
+.op_name{
+    color: #d4d4d4;
+    font-size: 19px;
+    text-align: right;
+	font-family: 'Russo One', sans-serif;
+}
+.op_pohlavi{
+    color: #d4d4d4;
+    text-align: right;
+    font-size: 19px;
+	font-family: 'Russo One', sans-serif;
+}
+.op_pohlavix{
+    color: #d4d4d4;
+    text-align: right;
+    font-size: 19px;
+	font-family: 'Russo One', sans-serif;
+}
+.op_narozeni{
+    color: #d4d4d4;
+    font-size: 19px;
+	font-family: 'Russo One', sans-serif;
+    text-align: right;
+}
+.container {
+    display: block;
+    position: absolute;
+    bottom: 22px;
+    right: 50%;
+    transform: translate(50%);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background: rgba(0, 0, 0, 80%);
+    padding: 3px;
+}
+.disabled {
+  -webkit-filter: invert(40%) grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(400%) contrast(2);
+  filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(700%) contrast(0.9);
+}
+.bluefilter {
+  -webkit-filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-180deg) saturate(900%) contrast(0.9);
+  filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-180deg) saturate(900%) contrast(0.9);
+}
+.enabled{
+  -webkit-filter: grayscale(100%) brightness(50%) sepia(100%) hue-rotate(50deg) saturate(1200%) contrast(0.9);
+  filter: grayscale(100%) brightness(50%) sepia(100%) hue-rotate(50deg) saturate(1200%) contrast(0.9);
+}
+.fuel_icon span{
+    width: 25px;
+    text-align: center;
+    display: inline-block;
+    margin-top: -4px;
+}
+.gear_icon span{
+    width: 25px;
+    text-align: center;
+    display: inline-block;
+    margin-top: -2px;
+}
+.containerStreet{
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    width: 480px;
+	font-family: 'Russo One', sans-serif;
+    right: 50%;
+    transform: translate(50%);
+    border-top-left-radius: 5px;
+    color: #fff;
+    font-size: 12px;
+    border-top-right-radius: 5px;
+    background: rgba(0, 0, 0, 80%);
+    padding: 3px 5px;
+}
+.containerStreet .material-icons-outlined{
+    font-size: 13px;
+    position: relative;
+    top: 1px;
+}
+.containerCar{
+    display: block;
+    position: absolute;
+    bottom: 15px;
+    width: 275px;
+	font-family: 'Russo One', sans-serif;
+    left: 22px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 13px;
+    background: rgba(0, 0, 0, 80%);
+    padding: 2px 2px;
+}
+.nearest{
+    color: #fff;
+}
+.user_id{
+    color: #fff;
+    font-family: 'Russo One', sans-serif;
+}
+.vehiclecontainer {
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 50%;
+    transform: translate(50%);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: rgba(34, 34, 34, 0.69);
+    padding: 3px;
+}
+.rychlost{
+    background: #a3a3a3;
+	font-family: 'Russo One', sans-serif;
+    color: rgba(34, 34, 34, 0.79);
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.radarcontainer {
+    display: block;
+    position: absolute;
+    bottom: 230px;
+    left: 30px;
+}
+.front{
+    color: #fff;
+    text-align: right;
+    border-radius: 5px;
+    width: 250px;
+    background: rgba(34, 34, 34, 0.79);
+	font-family: 'Russo One', sans-serif;
+    padding: 10px;
+}
+.spz_x{
+    float: left;
+    margin-left: 10px;
+}
+.boxp img{
+    float: left; width: 30px;
+    margin-top: -6px;
+}
+.back{
+    width: 250px;
+    color: #fff;
+    margin-top: 5px;
+    text-align: right;
+    border-radius: 5px;
+    background: rgba(34, 34, 34, 0.79);
+	font-family: 'Russo One', sans-serif;
+    padding: 10px;
+}
+.box{
+    width: 100px;
+    background: #303030;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    float: left;
+    position: relative;
+    height: 35px;
+	font-family: 'Russo One', sans-serif;
+    color: #fff;
+    margin: 3px;
+
+}
+.box_im{
+    padding: 5px;
+    min-width: 60px;
+    max-width: 160px;
+    background: #303030;
+	font-family: 'Russo One', sans-serif;
+    margin: 3px;
+    border-radius: 5px;
+    text-align: center;
+    float: left;
+    position: relative;
+    height: 35px;
+}
+.box_im img{
+    margin-top: 6px;
+}
+.left_text_cl{
+    float: left;
+}
+.right_text{
+    float: right;
+}
+.title{
+    color: #7b7b7b;
+    font-size: 12px;
+}
+.speedxy{
+    width: 100px;
+    padding: 0;
+    float:left;
+    padding:2px;
+    border-radius: 5px;
+    font-size: 13px;
+    text-align: center;
+    color: #fff;
+	font-family: 'Russo One', sans-serif;
+}
+.fuelindicator{
+    background: #7ae100;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+	font-family: 'Russo One', sans-serif;
+    transition: 0.2s ease-in-out;
+    border-radius: 5px;
+}
+.speedindicator{
+    background: #7ae100;
+    width: 100%;
+    height: 100%;
+    transition: 0.2s all;
+    border-radius: 5px;
+}
+.indicator{
+    font-size: 11px;
+	font-family: 'Russo One', sans-serif;
+    color: #fff;
+}
+.ukazatel{
+    font-size: 14px;
+	font-family: 'Russo One', sans-serif;
+    color: #fff;
+}
+
+#barIcon{
+    width: 7px;
+    height: 7px;
+    float: left;
+    padding: 0;
+    margin: 3px;
+    margin-top: 6px;
+    color: #fff;
+    font-size: 10px;
+}
+.spanicon{
+    padding: 0;
+    float:left;
+    position: relative;
+    font-size: 9px;
+    color: #fff;
+}
+.spanicon span{
+    font-size: 11px;
+}
+#health {
+    width: 60px;
+    height: 8px;
+    padding: 0;
+    float:left;
+    position: relative;
+    padding:0px;
+    border-radius: 5px;
+    background:#646b7c;
+    margin: 2px 4px;
+}
+#tacho {
+    width: 60px;
+    height: 8px;
+    padding: 0;
+    float:left;
+    position: relative;
+    padding:0px;
+    border-radius: 5px;
+    background:#646b7c;
+    margin: 2px 4px;
+}
+#armor {
+    width: 60px;
+    height: 8px;
+    padding: 0;
+    float:left;
+    position: relative;
+    padding:0px;
+    border-radius: 5px;
+    background:#646b7c;
+    margin: 2px 4px;
+}
+#stamina {
+    width: 60px;
+    height: 8px;
+    padding: 0;
+    float:left;
+    position: relative;
+    padding:0px;
+    border-radius: 5px;
+    background:#646b7c;
+    margin: 2px 4px;
+}
+
+#hunger {
+    width: 60px;
+    height: 8px;
+    padding: 0;
+    float:left;
+    position: relative;
+    padding:0px;
+    border-radius: 5px;
+    background:#646b7c;
+    margin: 2px 4px;
+}
+#thirst {
+    width: 60px;
+    height: 8px;
+    padding: 0;
+    float:left;
+    position: relative;
+    padding:0px;
+    border-radius: 5px;
+    background:#646b7c;
+    margin: 2px 4px;
+}
+
+#drunk {
+    width: 60px;
+    height: 8px;
+    padding: 0;
+    float:left;
+    position: relative;
+    padding:0px;
+    border-radius: 5px;
+    background:#646b7c;
+    margin: 2px 4px;
+}
+
+
+#boxTacho {
+    background: #000000d0;
+    width: 100%;
+    height: 100%;
+    transition: 0.2s ease-in-out;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+    font-size: 11px;
+	font-family: 'Russo One', sans-serif;
+}
+#boxDrunk, #boxHunger, #boxThirst, #boxHealth, #boxArmor, #boxStamina {
+    background: #222222;
+    width: 100%;
+    height: 100%;
+    transition: 0.2s ease-in-out;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+    font-size: 11px;
+	font-family: 'Russo One', sans-serif;
+}
+#boxDrunkIcon, #boxHungerIcon, #boxThirstIcon, #boxHealthIcon, #boxTachoIcon, #boxArmorIcon, #boxStaminaIcon {
+    background: transparent;
+    position: absolute;
+    top: 2px;
+    text-shadow: 0px 0px 15px #000;
+    left: 6px;
+    width: 50%;
+    height: 100%;
+    transition: 0.2s ease-in-out;
+    border-radius: 5px;
+    text-align: left;
+    color: #fff;
+    font-size: 5px;
+	font-family: 'Russo One', sans-serif;
+}
+#boxDrunkIcon span, #boxHungerIcon span, #boxThirstIcon span, #boxHealthIcon span, #boxTachoIcon span, #boxArmorIcon span, #boxStaminaIcon span {
+    font-size: 14px;
+}
+#boxDrunkText, #boxHungerText, #boxThirstText, #boxHealthText, #boxTachoText, #boxArmorText, #boxStaminaText {
+    background: transparent;
+    position: absolute;
+    top: -1px;
+    text-shadow: 0px 0px 15px #000;
+    right: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 0.2s ease-in-out;
+    border-radius: 5px;
+    text-align: right;
+    color: #fff;
+    font-size: 9px;
+	font-family: 'Russo One', sans-serif;
+}
+
+#boxHunger {
+    background: #ff9100;
+}
+
+#boxStamina {
+    background: #ffd000;
+}
+
+#boxThirst {
+    background: #0066ff;
+}
+
+#boxDrunk {
+    background: #7400e1;
+}
+
+#boxHealth {
+    background: #fd3446;
+}
+#boxTacho {
+    background: rgb(255, 0, 0);
+}
+
+#boxArmor {
+    background: #505050;
+}
+
+body {
+    overflow: hidden;
+    height:1080px;
+    width:100%;
+}
+
+.oxygen{
+    display: none;
+    position: absolute;
+    right: 70px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 190px;
+    border-radius: 5px;
+    background: rgba(34, 34, 34, 0.79);
+}
+.oxygenbar{
+    position: absolute;
+    width: 26px;
+    height: 156px;
+    background: transparent;
+    border-radius: 5px;
+    margin: 2px;
+}
+.oxygenvalue{
+    position: absolute;
+    bottom: 0px;
+    width: 26px;
+    transition: all 100ms;
+    height: 100%;
+    border-radius: 5px;
+    background: #498eb9;
+}
+.oxygenicon{
+    color: #fff;
+    position: absolute;
+    bottom: 6px;
+    width: 30px;
+    text-align: center;
+    font-size: 14px;
+	font-family: 'Russo One', sans-serif;
+}
